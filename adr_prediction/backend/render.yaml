@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: adr-prediction-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ADR_ALLOWED_ORIGINS
+        value: "*"
+      - key: ADR_MAX_UPLOAD_MB
+        value: "15"

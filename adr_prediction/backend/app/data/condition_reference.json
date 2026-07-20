@@ -1,0 +1,15 @@
+{
+  "_comment": "Keyword groups for detecting mentioned medical conditions/diagnoses in free-text prescriptions.",
+  "conditions": {
+    "diabetes": ["diabetes", "diabetic", "type 2 dm", "type 1 dm", "t2dm", "t1dm"],
+    "hypertension": ["hypertension", "high blood pressure", "htn"],
+    "renal_impairment": ["renal impairment", "chronic kidney disease", "ckd", "renal failure", "kidney disease"],
+    "hepatic_impairment": ["hepatic impairment", "liver disease", "cirrhosis", "hepatitis"],
+    "cardiac_disease": ["heart failure", "chf", "coronary artery disease", "cad", "arrhythmia", "atrial fibrillation", "afib"],
+    "asthma_copd": ["asthma", "copd", "chronic obstructive pulmonary"],
+    "depression_anxiety": ["depression", "anxiety", "major depressive disorder", "mdd", "gad"],
+    "seizure_disorder": ["epilepsy", "seizure disorder", "seizures"],
+    "thyroid_disorder": ["hypothyroidism", "hyperthyroidism", "thyroid disorder"],
+    "gi_disorder": ["gerd", "peptic ulcer", "gastritis", "acid reflux"]
+  }
+}
