@@ -5,6 +5,7 @@ services:
     buildCommand: npm install && npm run build
     startCommand: npm start
     env: node
+    rootDir: adr_prediction/frontend
     plan: free
     envVars:
       - key: NEXT_PUBLIC_API_URL
