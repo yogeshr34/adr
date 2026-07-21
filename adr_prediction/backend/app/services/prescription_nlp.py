@@ -40,7 +40,8 @@ _FREQUENCY_PATTERNS = {
 }
 
 _AGE_PATTERNS = [
-    re.compile(r"\bage\s*[:\-]?\s*(\d{1,3})\b", re.IGNORECASE),
+    re.compile(r"\bage\s*[:\-=]?\s*(\d{1,3})\b", re.IGNORECASE),
+    re.compile(r"\bage\s*\(\s*(\d{1,3})\s*\)", re.IGNORECASE),
     re.compile(r"\b(\d{1,3})\s*(?:years?[\s-]?old|yrs?[\s-]?old|y/o|yo)\b", re.IGNORECASE),
 ]
 
