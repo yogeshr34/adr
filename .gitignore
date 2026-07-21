@@ -56,6 +56,8 @@ models/
 
 # Frontend - Temporarily allow for integration
 # frontend/
+!adr_prediction/frontend/lib/
+!adr_prediction/frontend/lib/*
 
 # Results and outputs
 results/
@@ -85,3 +87,4 @@ htmlcov/
 
 # Profiling
 *.prof
+.vercel
