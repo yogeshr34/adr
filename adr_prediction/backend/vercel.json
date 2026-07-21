@@ -1,6 +1,4 @@
 {
-  "buildCommand": "pip install -r requirements.txt && python scripts/train_model.py",
-  "outputDirectory": ".",
-  "framework": null,
-  "devCommand": "uvicorn app.main:app --reload --port 8000"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null
 }

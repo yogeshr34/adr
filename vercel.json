@@ -2,10 +2,12 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "frontend": {
-      "root": "adr_prediction/frontend"
+      "root": "adr_prediction/frontend",
+      "framework": "nextjs"
     },
     "backend": {
       "root": "adr_prediction/backend",
+      "framework": null,
       "entrypoint": "Dockerfile"
     }
   },
